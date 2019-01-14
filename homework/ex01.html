@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/project.css">
+    <style>
+        :root {
+            --colorOne: #d5ecf4;
+            --colorTwo: #e5efd9;
+            --colorThree: #fcf8c0;
+            --colorFour: #ebebeb;
+            --colorFive: #f4c5c3;
+            --colorSix: #e5efd8;
+            --colorSeven: #fcf8c0;
+        }
+
+        * {
+            padding:0px;
+            margin:0px;
+            box-sizing:0px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+        }
+      
+        /*header*/
+
+        header {
+            
+            top: 100px;
+            margin:100px 100px 50px 100px;
+            display: grid;
+            grid-template-columns: 3fr 2fr 3fr 2fr;
+            
+        }
+
+        .grid-item {
+            display: inline-block;
+            list-style-type: none;
+            
+
+        }
+
+        .grid-item a{
+            color: gray;
+            list-style-type: none;
+        }
+        .grid-item li{
+            ist-style-type: none;
+        }
+        main div{
+            height:300px;
+          
+        }
+        
+        /*main*/
+
+        main {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 1000px;
+            width: 1000px;
+            border: 1px solid white;
+            text-align: center;
+            grid-gap: 10px;
+            margin:0 auto;
+        }
+
+        .grid-item2-div1 {
+            background-color: var(--colorOne);
+            grid-column: 1/1 span;
+            grid-row: 1/2 span;
+            
+        }
+
+        .grid-item2-div2 {
+            background-image: url("https://i.pinimg.com/564x/a9/29/68/a9296861b27d0f483dfcca54b79a76b5.jpg");
+            grid-column: 2/2 span;
+            grid-row: 1/2 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div3 {
+            background-color:var(--colorTwo);
+            grid-column: 1/1 span;
+            grid-row: 3/1 span;
+            
+        }
+        .grid-item2-div4 {
+            background-image: url("https://i.pinimg.com/564x/5d/d7/4e/5dd74eb1a270a2cff2d8e920aad90ee3.jpg");
+            grid-column: 2/1 span;
+            grid-row: 3/2 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div5 {
+            background-color: var(--colorThree);
+            grid-column: 3/1 span;
+            grid-row: 3/1 span;
+            
+        }
+        
+        .grid-item2-div6 {
+            background-color: var(--colorFour);
+            grid-column: 1/1 span;
+            grid-row: 4/1 span;
+            
+        }
+        
+        .grid-item2-div7 {
+            background-image: url("https://i.pinimg.com/564x/91/45/97/9145975e4a07ca65a80e61059a618931.jpg");
+            grid-column: 3/1 span;
+            grid-row: 4/1 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .grid-item2-div8 {
+            background-color: var(--colorFive);
+            grid-column: 1/2 span;
+            grid-row: 5/2 span;
+            
+        }
+        .grid-item2-div9 {
+            background-image: url("https://i.pinimg.com/236x/78/ee/a9/78eea9ba650b73f0fe0d9652f6d025bb.jpg");
+            grid-column: 3/1 span;
+            grid-row: 5/2 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div10 {
+            background-image: url("https://i.pinimg.com/236x/78/ee/a9/78eea9ba650b73f0fe0d9652f6d025bb.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            grid-column: 1/2 span;
+            grid-row: 7/2 span;
+            
+        }
+        .grid-item2-div11 {
+            background-image: url("https://i.pinimg.com/564x/44/5c/ab/445cabc3f44b363c7fc5e9375625e28d.jpg");
+            grid-column: 3/1 span;
+            grid-row: 7/1 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div15 {
+            background-image: url("https://i.pinimg.com/236x/fd/aa/89/fdaa89ef1c215e84982a08d532e9a431.jpg");
+            grid-column: 3/1 span;
+            grid-row: 8/1 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div12 {
+            background-color: var(--colorSix);
+            grid-column: 1/2 span;
+            grid-row: 9/2 span;
+            
+        }
+        .grid-item2-div13 {
+            background-image: url("https://i.pinimg.com/564x/65/37/28/6537287a63553bdee3589e53345abff6.jpg");
+            grid-column: 3/1 span;
+            grid-row: 9/1 span;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .grid-item2-div14 {
+            background-color: var(--colorSeven);
+            grid-column: 3/1 span;
+            grid-row: 10/1 span;
+            
+        }
+
+    </style>
+
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <div>
+            <h1>▲❚</h1>
+        </div>
+        <div class="grid-item">
+            <a href="#">INFORMATION</a>
+            <ul>
+                <li>
+                    <div>About</div>
+                </li>
+                <li>
+                    <div>News</div>
+                </li>
+                <li>
+                    <div>Press</div>
+                </li>
+            </ul>
+        </div>
+        <div class="grid-item">
+            <ul>
+                <a href="#">PORTFOLIO</a>
+                <li>
+                    <div>Products</div>
+                </li>
+                <li>
+                    <div>Graphics</div>
+                </li>
+                <li>
+                    <div>sounds</div>
+                </li>
+            </ul>
+        </div>
+        <div class="grid-item">
+            <ul>
+                <a href="#">NETWORK</a>
+                <li>
+                    <div>Facebook</div>
+                </li>
+                <li>
+                    <div>Instagram</div>
+                </li>
+                <li>
+                    <div>Youtube</div>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <br><br><br><br><br><br>
+
+
+    <main>
+
+        <div class="grid-item2-div1">1</div>
+        <div class="grid-item2-div2">2</div>
+        <div class="grid-item2-div3">3</div>
+        <div class="grid-item2-div4">4</div>
+        <div class="grid-item2-div5">5</div>
+        <div class="grid-item2-div6">6</div>
+        <div class="grid-item2-div7">7</div>
+        <div class="grid-item2-div8">8</div>
+        <div class="grid-item2-div9">9</div>
+        <div class="grid-item2-div10">10</div>
+        <div class="grid-item2-div11">11</div>
+        <div class="grid-item2-div12">12</div>
+        <div class="grid-item2-div13">13</div>
+        <div class="grid-item2-div14">14</div>  
+        <div class="grid-item2-div15">15</div> 
+        
+        
+
+
+
+    </main>
+
+    <nav>
+
+    </nav>
+
+</body>
+
+
+
+</html>

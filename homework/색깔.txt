@@ -1,0 +1,9 @@
+        :root {
+            --colorOne: #d5ecf4;
+            --colorTwo: #e5efd9;
+            --colorThree: #fcf8c0;
+            --colorFour: #ebebeb;
+            --colorFive: #f4c5c3;
+            --colorSix: #e5efd8;
+            --colorSeven: #fcf8c0;
+        }

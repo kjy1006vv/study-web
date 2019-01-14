@@ -1,0 +1,78 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(231, 133, 133);
+    padding: 30px;
+    text-align:center;
+    font-size:35px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav{
+    background-color:tomato;
+    text-align:center;
+    text-decoration: none;
+}
+
+nav .menu{/* 이친구가 ul이다 */
+    list-style-type: none;
+    display:inline-block;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color:white;
+    font-size:17px;
+    display:inline-block;
+    padding:16px;   
+}
+
+nav .menu li{
+    display:inline-block;
+}
+
+nav .menu .dropdown .dropdown-content{
+    position:absolute;
+    background-color:tomato;
+    min-width:89.41px; /*min-width로 최소로 잡으면 글을쓸때 자동으로 늘어남*/
+    display:none;
+    
+}
+
+nav .menu .dropdown-content a{
+    display:block;
+    text-align:left;
+    
+}
+
+nav .menu li:hover .dropdown-content{
+    display:block;
+   
+}
+
+@media(max-width:500px){/* 화면 변화에 반응함*/
+    nav .menu li{
+        display:block;
+    }
+    nav .menu .dropdown .dropdown-content{
+        
+        position:relative;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

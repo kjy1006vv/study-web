@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>회원가입폼</title>
+</head>
+
+<body>
+    <form action="test.html">
+    <table border="1">
+        <tr>
+            <td>아이디</td>
+            <td><input type="text" name="id">
+                <input type="button" value="중복검사"></td>
+        </tr>
+        <tr>
+            <td>이름</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>주민번호</td>
+            <td><input type="text" size="30" name="secret">
+                예)0000000-0000000
+            </td>
+        </tr>
+        <tr>
+            <td>이메일</td>
+            <td><input type="email" size="60" name="email"></td>
+        </tr>
+        <tr>
+            <td>집전화</td>
+            <td><input type="text" size="10" name="hometel1">
+                - <input type="text" size="10" name="hometel2">
+                - <input type="text" size="10" name="hometel3"></td>
+        </tr>
+        <tr>
+            <td>휴대전화</td>
+            <td><input type="text" size="10" name="phonetel">
+                - <input type="text" size="10" name="phonete2">
+                - <input type="text" size="10" name="phonete3"></td>
+        </tr>
+        <tr>
+            <td>주소검색</td>
+            <td>
+                <input type="text">
+                <input type="button" value="검색하기">
+                (주소입력 : 송파동,당산동...)
+            </td>
+        </tr>
+        <tr>
+            <td>주소</td>
+            <td>
+                <select name="address" name="address">
+                    <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+                    </selcet>
+            </td>
+        </tr>
+        <tr>
+            <td>상세주소</td>
+            <td><input type="text" size="70" name="detail"></td>
+        </tr>
+        <tr>
+            <td>학력</td>
+            <td>
+                <select name="degree">
+                    <option>중졸&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+                    <option>고졸</option>
+                    <option>학사</option>
+                    <option>석사</option>
+                    <option>박사</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>홍보매체</td>
+            <td>
+                <select name="pr">
+                    <option>어떻게 알게되었나요?</option>
+                    <option>인터넷광고</option>
+                    <option>전단지</option>
+                    <option>지인소개</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>메일수신</td>
+            <td>
+                <input type="checkbox" name="receive">
+                네.kh정보교육원에서 제공하는 정보메일 수신에 동의합니다.
+            </td>
+        </tr>
+        <tr>
+            <td>교육장소</td>
+            <td>
+                <select name="place">
+                    <option>선택하세요&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+                    <option>서면</option>
+                    <option>수역</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td>
+                <input type="password" name="pass">
+                확인
+                <input type="password" name="pass">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="회원가입">
+    <input type="reset" value="초기화">
+</form>
+</body>
+
+</html>

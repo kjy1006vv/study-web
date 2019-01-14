@@ -1,0 +1,32 @@
+background-color: var(--colorOne);
+
+background-image: url(https://i.pinimg.com/564x/a9/29/68/a9296861b27d0f483dfcca54b79a76b5.jpg);
+
+background-color: var(--colorTwo);
+
+url(https://i.pinimg.com/564x/5d/d7/4e/5dd74eb1a270a2cff2d8e920aad90ee3.jpg);
+
+background-color: var(--colorThree);
+
+background-color: var(--colorFour);
+
+background-image: url(https://i.pinimg.com/564x/91/45/97/9145975e4a07ca65a80e61059a618931.jpg);
+
+background-color: var(--colorFive);
+
+background-image: url(https://i.pinimg.com/236x/78/ee/a9/78eea9ba650b73f0fe0d9652f6d025bb.jpg);
+
+background-image: url(https://i.pinimg.com/564x/f4/60/27/f46027b7568b05d37b2f110d746f9230.jpg);background-image: url(https://i.pinimg.com/236x/78/ee/a9/78eea9ba650b73f0fe0d9652f6d025bb.jpg);
+
+background-image: url(https://i.pinimg.com/564x/44/5c/ab/445cabc3f44b363c7fc5e9375625e28d.jpg);
+
+background-image: url(https://i.pinimg.com/236x/fd/aa/89/fdaa89ef1c215e84982a08d532e9a431.jpg);
+
+background-color: var(--colorSix);
+
+
+\\192.168.0.53
+
+background-image: url(https://i.pinimg.com/564x/65/37/28/6537287a63553bdee3589e53345abff6.jpg);
+
+background-color: var(--colorSeven);
