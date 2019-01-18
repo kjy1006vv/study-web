@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .grid-container{
+            padding: 10px;
+            text-align: left;
+            width: 50x;  
+            
+        }
+        .grid-container div{
+            grid-column: 1 / 3;
+        }
+        input {
+            width: 500px;
+            height: 40px;
+            margin: 6px;
+            border: 1px solid gray;
+            border-radius: 3px;
+        }
+        .all{
+            text-align: center;
+            
+        }
+    
+        .login{
+                background-color: tomato;
+                color: white;
+
+                font-size: 12px;
+                margin: 5px;
+               border-radius: 3px;
+               border: none;
+    
+            }
+        .b{
+            font-size: 12px;
+
+        }
+        .a{
+            font-size: 12px;
+            text-align: center;
+        }
+        .check{
+                width: 12px;
+                height: 12px;
+            }
+           
+            </style>
+</head>
+
+<body>
+    <form action="index.html">
+        <div class="grid-container"><br>
+            <div class="a"><span style="color:rgb(7, 165, 185)"><b>페이스북</span> 또는 <span style="color:rgb(7, 165, 185)">구글</span>로
+                회원가입 하세요.</b><br><br>
+                <hr><br></div>
+            <div class="all">
+                <div><input type="text" placeholder="&nbsp; 이메일 주소"></div>
+                <div><input type="text" placeholder="&nbsp; 이름(예:길동)"></div>
+                <div><input type="text" placeholder="&nbsp; 성(예:홍)"> </div>
+                <div><input type="password" placeholder="&nbsp; 비밀번호 설정"></div>
+                <div class="b"><b>생일</b></div>
+                <div class="b">회원가입을 하시려면 만 18세 이상이어야 합니다.<br>생일은 다른 회원에게는
+                    공개되지 않습니다.</div>
+                <div class="day"> <input type="month" ></div>
+
+                <div class="b">에어비엔비의 마케팅 프로모션, 특별 할인 및 추천 여행 정보, 정책 변경사항을<br>
+                    이메일로 보내드립니다.</div>
+                <div><input class="login" type="submit" value="가입하기"></div>
+                <div class="a"><input class="check" type="checkbox"> 에어비엔비에서 보내는 마케팅 메시지를 받고 싶지 않습니다. 계정 관리 설정<br>
+                    또는 메시지의 링크에서 언제든지 수신을 거부할 수 있습니다.
+                   
+                </div><hr><br>
+            </div>
+            <div class="a">
+                <b>이미 에어비엔비 계정이 있나요? <span class="b" style="color:rgb(7, 165, 185)">로그인 </span></b>
+            </div><br>
+
+
+        </div>
+    </form>
+</body>
+
+</html>

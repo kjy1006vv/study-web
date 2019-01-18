@@ -1,0 +1,25 @@
+자기이름 : 최주호
+- airbnb_jooho
+- 최주호.ppt
+
+폴더명
+airbnb_jooho
+
+파일
+-css - style.css
+-js - index.js
+-images 
+-index.html
+-signup.html
+-signin.html
+
+시멘틱태그
+- header, nav, main, footer
+
+로그인 (GET)
+- action:index.html
+
+회원가입 (GET)
+- action:index.html
+
+최고 평점의 트립에 참여해보세요 - 이까지(footer없음)

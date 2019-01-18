@@ -1,0 +1,140 @@
+
+main {
+    background-image: url("img/background.jpg");
+    height:900px;
+    background-size: 100% 100%;
+}
+.airbnb{
+    float: left;
+}
+nav ul li {
+    float: right;
+    list-style-type: none;
+    padding: 15px 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li:hover {
+   border-bottom: 1px solid white;
+}
+
+table{
+    background-color: white;
+    border-radius: 5px;
+padding: 5px;
+}
+.book{
+    font-size: 28px;
+    text-align: left;
+    padding: 15px;
+    font-family: sans-serif;
+  color: rgb(80, 78, 78);
+  }
+
+/* tr,td{
+    border:1px solid black;
+} */
+
+input[type=text],input[type=number]{
+    border: 1px solid rgb(165, 161, 161);
+    border-radius:3px;
+    height: 30px;
+    width: 310px;
+    margin: 5px;
+    color: gray;
+    
+}
+input[type=date]{
+    border: 1px solid rgb(165, 161, 161);
+    border-radius:3px;
+    height: 30px;
+    margin: 5px;
+    color: gray;
+}
+
+
+form{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+button{
+  position: relative;
+  left: 252px;
+  background-color: rgb(252, 88, 59);
+  border: none;
+  color: white;
+  width: 60px;
+  height: 35px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.type{
+    position: relative;
+  font-size: 12px;
+  padding: 6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    
+   
+}
+.castle,.mountain,.arc {
+    position: relative;
+    width: 500%;
+    padding: 20px;
+    top: -60px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p{
+    position: absolute;
+    left: 90px;
+    bottom: 35px;
+}
+
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    
+}
+footer ul{
+    margin: 80px;
+    list-style-type: none;
+    text-align:left;
+    
+}
+.travelling{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+.when{
+    grid-column: 2 / 3;
+}
+.add{
+    background-color:white;
+    color: rgb(70, 70, 255);
+    border: 2px solid rgb(70, 70, 255);
+    width: 100px;
+    height: 40px;
+    
+}
+.new{
+    background-color: rgb(8, 100, 100);
+    border: none;
+    height: 22px;;
+    color: white;
+    border-radius: 4px;
+}

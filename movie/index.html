@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>영화페이지</title>
+    <style>
+        #main{
+            display:grid;
+            grid-template-columns: auto auto;
+            justify-content:space-around;
+            width:800px;
+            margin:0 auto;
+        }
+        img{
+            width:200px;
+            height:300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+
+    </div>
+    <script>
+        function addDiv(result){
+            let main = document.querySelector("#main");
+            for(let i =0; i<20; i++){
+            //변수만들기
+            let title = result.data.movies[i].title;
+            let rating = result.data.movies[i].rating;
+            let large_cover_image = result.data.movies[i].large_cover_image;
+            let summary = result.data.movies[i].summary;
+
+            let newDiv = document.createElement("Div");
+            newDiv.innerHTML = title + " " + rating + "<br><img src='" + large_cover_image+"'><br>" + summary;
+            main.append(newDiv);
+        }
+        }
+
+        let url = "https://yts.am/api/v2/list_movies.json?limit=20&page=1&sort_by=rating";
+        let img ="";
+        //다운을 다받으면 then이 실행되는데 그안에 함수가있음
+        fetch(url).then(function(response){
+            return response.json();
+        }).then(function(result){
+            addDiv(result);
+            // console.log(result.data.movies[0].medium_cover_image);
+            // img = result.data.movies[0].medium_cover_image;
+            // let main = document.querySelector("#main");
+            // console.log(main);
+            //main.innerHTML = "<img src='"+img+"'>";
+        });
+
+    </script>
+</body>
+</html>

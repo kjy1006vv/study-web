@@ -1,0 +1,35 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.photo-grid div {
+    width:400px;
+    height:500px;
+    border: 2px solid bisque;
+}
+.photo-grid img {
+    width:100%;
+    height:60%;
+}
+
+.image-up {
+    position: relative;
+    top: -100px;
+}
+.travel-box {
+    margin:0 auto;
+    width:1300px;
+    border: 2px solid bisque;
+}
+.travel {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.travel h1 {
+    font-size: 40px;
+}

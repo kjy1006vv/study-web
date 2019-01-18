@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            form{
+                margin: 0px 350px;
+            }
+            input{
+                width: 500px;
+                height: 40px;
+            }
+            .facebook{
+                background-color: rgb(75, 75, 206);
+               
+                color: white;
+                font-size: 12px;
+               margin: 5px;
+               border: none;
+               border-radius: 3px;
+            }
+    
+            .google, .email{
+                background-color: white;
+                font-size: 12px;
+                margin: 5px;
+               border: 2px solid gray;;
+               border-radius: 3px;
+            }
+            .email, .pw{
+                background-color: white;
+                font-size: 12px;
+                margin: 5px;
+               border: 1px solid rgb(226, 224, 224);;
+               border-radius: 3px;
+            }
+          
+            .login{
+                background-color: tomato;
+                color: white;
+                font-size: 12px;
+                margin: 5px;
+               border-radius: 3px;
+               border: none;
+    
+            }
+            .b{
+                color: rgb(7, 165, 185);
+                font-size: 12px;
+            }
+            .a{
+                text-align: center;
+                font-size: 12px;
+            }
+         
+            .check{
+                width: 12px;
+                height: 12px;
+            }
+            tr span{
+                text-align: right;
+            }
+                </style>
+</head>
+<main>
+
+    <body>
+        <form action="index.html">
+            <table>
+                    <tr>
+                    <td colspan="2"><br><hr><input class="facebook" type="button" value="페이스북 계정으로 로그인"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="google" type="button" value="구글 계정으로 로그인">
+                        <hr>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2"><input class="email" type="text" placeholder="&nbsp; 이메일 주소" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="pw" type="password" placeholder="&nbsp; 비밀번호"></td>
+                </tr>
+                <tr>
+                    <td><input class="check" type="checkbox"> 비밀번호 저장</td>
+                    <td class="b"><b>비밀번호 보기</b></td>
+                </tr>
+                <tr>
+                    <td class="b"><b>전화번호로 로그인·비밀번호가 기억나지 않으세요?</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="login" type="submit" value="로그인">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a" colspan="2"><b>에어비엔비 계정이 없으세요? <span class="b">회원 가입</span></b></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</main>
+
+</html>
